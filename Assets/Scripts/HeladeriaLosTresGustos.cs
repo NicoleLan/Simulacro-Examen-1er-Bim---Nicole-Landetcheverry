@@ -6,9 +6,9 @@ public class HeladeriaLosTresGustos : MonoBehaviour
 {
     public string codigoGusto;
     public int cantidadHelado;
-    float precioGramo = 1.25f;
+    float precioGramo = 1250/1000f;
     float precioPedido;
-
+    
     // Start is called before the first frame update
     void Start()
     {
