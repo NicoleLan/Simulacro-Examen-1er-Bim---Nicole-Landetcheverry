@@ -13,7 +13,7 @@ public class HeladeriaLosTresGustos : MonoBehaviour
     void Start()
     {
         if ((cantidadHelado < 250) || (cantidadHelado > 3000)) { 
-            Debug.Log("Error");
+            Debug.Log("Cantidad de helado no válida, se debe ingresar de 250g hasta 3000g.");
             return;
 
         }
@@ -29,13 +29,13 @@ public class HeladeriaLosTresGustos : MonoBehaviour
             precioPedido = (cantidadHelado * precioGramo) * 0.9f;
             Debug.Log("El precio de tu pedido es $" + precioPedido);
 
-        } else if (codigoGusto == "FRU")
+        } else if (codigoGusto == "DDL")
         {
             precioPedido = cantidadHelado * precioGramo;
             Debug.Log("El precio de tu pedido es $" + precioPedido);
 
         } else {
-            Debug.Log("Error");
+            Debug.Log("Código ingresado no válido.");
 
         }
     }
