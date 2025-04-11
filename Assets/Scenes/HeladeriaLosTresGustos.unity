@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codigoGusto: FRU
-  cantidadHelado: 500
+  cantidadHelado: 3001
 --- !u!4 &613278497
 Transform:
   m_ObjectHideFlags: 0
